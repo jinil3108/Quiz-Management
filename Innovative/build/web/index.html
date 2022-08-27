@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Management System</title>
+        <link rel="icon" href="./img/icon.png" />
+        <link rel="stylesheet" href="./css/login.css"/>
+        
+        <style>
+            
+            body{
+                background-image: url('./img/nirma.jpg');
+                background-size: cover; 
+                background-position: center;
+                height: 90vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color: #343a40;" class="navbar">
+                <a href="./index.html" class="navbar-brand text-light">
+                    Quiz Management System
+                </a>
+            
+            <span class="button">
+                <a href="./register.html" class="btn btn-outline-light mr-3">
+                    <i class="fa fa-user-plus" aria-hidden="true"></i> Register
+                </a>
+            </span>
+        </div>
+        
+        <div class="container">
+            
+            <center><img src="./img/nulogo.jpg" height="65" width="170"/></center>
+            <hr>
+            <form method="POST" action="CheckLogin">
+                    <label for="email">Enter the email:</label>
+                    <input type="text" name="email" required><br><br>
+                
+                    <label for="password">Enter the password:</label>
+                    <input type="password" name="password" required>
+                
+                    <br>        
+                    <center>
+                    <input type="submit"/>
+                    </center>
+            </form>  
+            <br>
+            <!--<center>Forgot Password? <a href="register.html">Click Here</a></center>-->
+        </div>
+        <footer class="footer">
+            Copyright &copy; 2022 | Sarthak and Jinil | All Rights Reserved 
+        </footer>
+    </body>
+</html>

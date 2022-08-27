@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+            .footer{
+                font-family: 'Playfair Display';
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: #343a40;
+                color: white;
+                text-align: center;
+            }
+            
+      
+            
+            .container{
+                height:550px;
+                width: 450px;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-top: -275px;
+                margin-left: -225px;
+                border: 1px solid #bbb;
+                border-radius: 8px;
+                padding: 20px;
+                box-sizing: border-box;
+                background-color: white;
+            }
+            
+            .button{
+                float:right;
+            }
+            
+            .navbar{
+                padding-top: 10px;
+            }
+            
+            input[type=text], input[type=password]{
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                resize: vertical;
+            }
+            
+            input[type=submit]{
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 25px 0px 10px 0px;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: "Times New Roman", Times, serif;
+            }

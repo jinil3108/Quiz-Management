@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Management System</title>
+        <link rel="stylesheet" href="./css/login.css"/>
+        <style>
+            
+            body{
+                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                font-size: .9375rem;
+                font-weight: 400;
+                line-height: 1.5;
+                background-color: #fff;
+            }
+            .username
+            {
+                margin-right: 15px;
+                color:white;
+            }
+            .contain{
+                font-size: 20px;
+                display:block;
+                margin: 20px 80px 20px 80px;
+                height:290px;
+                border: 1px solid #bbb;
+                border-radius: 4px;
+                padding: 20px;
+                box-sizing: border-box;
+                background-color: #def2f8;
+            }
+            
+            .startbox{
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                float:left;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 20px 0px 10px 0px;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            
+            .endbox{
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                float:right;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 20px 0px 10px 0px;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            
+            </style>
+    </head>
+    <body>
+        <div style="background-color: #343a40;" class="navbar">
+            
+                <a href="./index.html" class="navbar-brand text-light">
+                    Quiz Management System
+                </a>
+            
+            <span class="button">
+                
+                <span class="username">Welcome Admin</span>
+                
+                <a href="Logout.jsp" class="btn btn-outline-light mr-3">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i> Log Out
+                </a>
+            </span>
+        </div>
+        
+        <form action="CheckQuiz" method="post">
+            <label for="email">Enter the Email of student:</label>
+            <input type="text" name="email" ><br>
+            <br>
+<!--            <label for="quizname">Enter the quiz name:</label>
+            <input type="text" name="quizname" ><br>
+            <br>-->
+<!--            <label for="marks">Enter the marks:</label>
+            <input type="number" name="marks" ><br>
+            <br>-->
+            <label for="quizid">Enter the quiz id:</label>
+            <input type="text" name="quizid" ><br>
+            <br>
+<!--            <label for="visited">Is visited?</label>
+            <input type="text" name="visited" ><br>
+            <br>-->
+            <center>
+                <input type="submit">
+            </center>
+        </form>
+        
+    </body>
+</html>
